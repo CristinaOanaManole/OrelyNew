@@ -1,0 +1,188 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto;
+}
+hr {
+    border-top: 1px;
+    border-color: #cccccc;
+    width: 25em;
+    margin-left: -0.2em;
+    margin-top: 1em;
+}
+.div-img{
+    grid-column: 2/11;
+    grid-row: 1;
+}
+
+.div-img img{
+    width: 100%;
+    height: auto;
+}
+
+.first {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-column: 2/5;
+    grid-row: 2;
+    text-transform: uppercase;
+    font-size: 0.75em;
+}
+
+.first h1 {
+    color: #38a4f3;
+}
+
+.first h2 {
+    font-size: 1.65em;
+    margin: 0em;
+    width: 90%;
+}
+
+.first h3 {
+    font-size: 1.4em;
+    margin: 0em;
+    width: 82%;
+}
+
+.first h6 {
+    
+    text-transform: none;
+    font-size: 1em;
+    margin: 0em;
+    margin-top: 0.4em;
+    width: 78%;
+    
+}
+
+.div-img1 img {
+    width: 90%;
+    height: auto;
+}
+
+.Label1 {
+    position: absolute;
+    color: #ffffff;
+    background-color: #1c93ee;
+    max-width: max-content;
+    padding: 0.5em;
+    margin-top: -2.6em;
+}
+
+.Label1 {
+    color: #ffffff;
+    background-color: #1c93ee;
+    max-width: max-content;
+    padding: 0.5em;
+    margin-top: 0.8em;
+}
+
+.second {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-column: 5/9;
+    grid-row: 2;
+    text-transform: uppercase;
+    font-size: 0.75em;
+}
+
+.second h1 {
+    color: #38a4f3;
+}
+
+.second h2 {
+    font-size: 1.65em;
+    margin: 0em;
+    width: 66%;
+    
+}
+
+.second h3 {
+    font-size: 1.4em;
+    margin: 0em;
+    width: 68%;
+    
+}
+
+.second h4 {
+    text-transform: none;
+    font-size: 1.4em;
+    margin: 0em;
+    width: 68%;
+    
+}
+
+.second h5 {
+    text-transform: none;
+    font-size: 1.2em;
+    margin: 0em;
+    width: 68%;
+    
+}
+
+.second h6 {
+    font-weight: bold;
+    text-transform: none;
+    font-size: 1.1em;
+    margin: 0em;
+    margin-top: 0.4em;
+    width: 62%;
+}
+
+.div-img2 img {
+    width: 68%;
+    height: auto;
+}
+
+.Label2 {
+    position: absolute;
+    color: #ffffff;
+    background-color: #c12051;
+    max-width: max-content;
+    padding: 0.5em;
+    margin-top: -2.6em;
+}
+
+.Label2 {
+    color: #ffffff;
+    background-color: #c12051;
+    max-width: max-content;
+    padding: 0.5em;
+    margin-top: 0.8em;
+}
+
+.third {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-column: 8/13;
+    grid-row: 2;
+    text-transform: uppercase;
+    font-size: 0.75em;
+}
+
+.third h1 {
+    color: #38a4f3;
+}
+
+.third h2 {
+    font-size: 1.65em;
+    margin: 0em;
+    width: 46%;
+}
+
+.third h3 {
+    font-size: 1.4em;
+    margin: 0em;
+    width: 50%;
+}
+
+.third h6 {
+    font-weight: bold;
+    text-transform: none;
+    font-size: 1.1em;
+    margin-top: 0.4em;
+    margin: 0em;
+    width: 52%;
+}
+
+.div-img3 img {
+    width: 54.5%;
+    height: auto;
+}
